@@ -1,0 +1,116 @@
+
+body{
+    background-image: url(file:///C:/Users/Ilham/OneDrive/Masa%C3%BCst%C3%BC/Practice/assets/image/back.jpg);
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: cover;
+    width: 80%;
+    height: 80vh;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#logo{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 50px
+}
+#logo a{
+    text-decoration: none;
+    color: #fff;
+}
+#logo a span{
+    color: red;
+}
+
+#navbar{
+    display: inline-flex;
+
+}
+#navbar ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 170px;
+}
+
+#navbar ul li{
+    margin: 5px 35px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    transition: 0.3s;
+}
+#navbar ul li a:hover{
+    color: red;
+}
+
+
+#authentication{
+    display: inline;
+    margin-left: 150px;
+}
+
+#authentication button{
+    border: 1px solid #fff;
+    font-family: sans-serif;
+    margin-right: 30px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    background: transparent;
+
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#authentication button:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.header{
+    font-family: monospace;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.main-text span{
+    font-family: monospace;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.main-text button{
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-text button:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
