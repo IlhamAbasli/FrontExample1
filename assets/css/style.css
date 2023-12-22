@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(file:///C:/Users/Ilham/OneDrive/Masa%C3%BCst%C3%BC/Practice/assets/image/back.jpg);
+    background-image: url("../image/back.jpg");
     background-repeat: no-repeat;
     background-color: #cccccc;
     background-size: cover;
